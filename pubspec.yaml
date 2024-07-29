@@ -1,0 +1,66 @@
+name: lezof_auto_repair_mobile_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  stylish_bottom_bar: ^1.1.0
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  another_flushbar: ^1.12.30
+  dio: ^5.5.0+1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true 
+  assets:
+    - assets/images/   
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Black.ttf
+        - asset: assets/fonts/Outfit-Bold.ttf
+        - asset: assets/fonts/Outfit-ExtraBold.ttf
+        - asset: assets/fonts/Outfit-ExtraLight.ttf
+        - asset: assets/fonts/Outfit-Light.ttf
+        - asset: assets/fonts/Outfit-Medium.ttf
+        - asset: assets/fonts/Outfit-Regular.ttf
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+        - asset: assets/fonts/Outfit-Thin.ttf
+    - family: AbeeZee
+      fonts:
+        - asset: assets/fonts/AbeeZee-Italic.ttf
+        - asset: assets/fonts/AbeeZee-Regular.ttf 
+    - family: Gabarito
+      fonts:
+        - asset: assets/fonts/Gabarito-Black.ttf
+        - asset: assets/fonts/Gabarito-Bold.ttf
+        - asset: assets/fonts/Gabarito-ExtraBold.ttf
+        - asset: assets/fonts/Gabarito-Medium.ttf
+        - asset: assets/fonts/Gabarito-Regular.ttf
+        - asset: assets/fonts/Gabarito-SemiBold.ttf     
+    - family: JosefinSans
+      fonts:
+        - asset: assets/fonts/JosefinSans-BoldItalic.ttf
+        - asset: assets/fonts/JosefinSans-Bold.ttf
+        - asset: assets/fonts/JosefinSans-ExtraLight.ttf
+        - asset: assets/fonts/JosefinSans-ExtraLightItalic.ttf
+        - asset: assets/fonts/JosefinSans-Light.ttf
+        - asset: assets/fonts/JosefinSans-Italic.ttf
+        - asset: assets/fonts/JosefinSans-LightItalic.ttf
+        - asset: assets/fonts/JosefinSans-Medium.ttf
+        - asset: assets/fonts/JosefinSans-MediumItalic.ttf
+        - asset: assets/fonts/JosefinSans-Regular.ttf
+        - asset: assets/fonts/JosefinSans-SemiBold.ttf
+        - asset: assets/fonts/JosefinSans-SemiBoldItalic.ttf
+        - asset: assets/fonts/JosefinSans-Thin.ttf
+        - asset: assets/fonts/JosefinSans-ThinItalic.ttf         
